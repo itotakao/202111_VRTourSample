@@ -1,0 +1,139 @@
+﻿<krpano version="1.20.10" title="Virtual Tour">
+
+	<include url="skin/vtourskin.xml" />
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+
+
+	
+	<scene name="scene_PIC_2021_11_14_13_54_51_20211117001408" title="PIC_2021_11_14_13_54_51_20211117001408" onstart="" thumburl="panos/PIC_2021_11_14_13_54_51_20211117001408.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="505.835" vlookat="10.500" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/PIC_2021_11_14_13_54_51_20211117001408.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/PIC_2021_11_14_13_54_51_20211117001408.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-133.272" atv="16.820" linkedscene="scene_pic_2021_11_14_13_57_18_20211117001448" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="139.311" atv="18.543" linkedscene="scene_pic_2021_11_14_14_00_05_20211117001448" />
+
+	</scene>
+
+	<scene name="scene_PIC_2021_11_14_13_57_18_20211117001448" title="PIC_2021_11_14_13_57_18_20211117001448" onstart="" thumburl="panos/PIC_2021_11_14_13_57_18_20211117001448.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="85.305" vlookat="1.263" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/PIC_2021_11_14_13_57_18_20211117001448.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/PIC_2021_11_14_13_57_18_20211117001448.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="85.305" atv="1.263" linkedscene="scene_pic_2021_11_14_14_02_18_20211117001448" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-23.069" atv="6.069" linkedscene="scene_pic_2021_11_14_13_54_51_20211117001408" />
+
+	</scene>
+
+	<scene name="scene_PIC_2021_11_14_14_00_05_20211117001448" title="PIC_2021_11_14_14_00_05_20211117001448" onstart="" thumburl="panos/PIC_2021_11_14_14_00_05_20211117001448.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-105.076" vlookat="8.512" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/PIC_2021_11_14_14_00_05_20211117001448.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/PIC_2021_11_14_14_00_05_20211117001448.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-102.551" atv="8.686" linkedscene="scene_pic_2021_11_14_13_54_51_20211117001408" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-175.621" atv="13.066" linkedscene="scene_pic_2021_11_14_14_02_18_20211117001448" />
+
+	</scene>
+
+	<scene name="scene_PIC_2021_11_14_14_02_18_20211117001448" title="PIC_2021_11_14_14_02_18_20211117001448" onstart="" thumburl="panos/PIC_2021_11_14_14_02_18_20211117001448.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-127.429" vlookat="8.658" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/PIC_2021_11_14_14_02_18_20211117001448.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/PIC_2021_11_14_14_02_18_20211117001448.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-134.733" atv="16.904" linkedscene="scene_pic_2021_11_14_13_57_18_20211117001448" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-33.771" atv="-0.501" linkedscene="scene_pic_2021_11_14_14_00_05_20211117001448" />
+
+	</scene>
+
+
+</krpano>
