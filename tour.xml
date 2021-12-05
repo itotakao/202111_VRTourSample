@@ -71,7 +71,7 @@
 
 
 	
-	<scene name="scene_PIC_2021_11_14_13_54_51_20211117001408" title="PIC_2021_11_14_13_54_51_20211117001408" onstart="" thumburl="panos/PIC_2021_11_14_13_54_51_20211117001408.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_PIC_2021_11_14_13_54_51_20211117001408" title="外周00" onstart="" thumburl="panos/PIC_2021_11_14_13_54_51_20211117001408.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -87,7 +87,7 @@
 
 	</scene>
 
-	<scene name="scene_PIC_2021_11_14_13_57_18_20211117001448" title="PIC_2021_11_14_13_57_18_20211117001448" onstart="" thumburl="panos/PIC_2021_11_14_13_57_18_20211117001448.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_PIC_2021_11_14_13_57_18_20211117001448" title="外周01" onstart="" thumburl="panos/PIC_2021_11_14_13_57_18_20211117001448.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -103,7 +103,7 @@
 
 	</scene>
 
-	<scene name="scene_PIC_2021_11_14_14_00_05_20211117001448" title="PIC_2021_11_14_14_00_05_20211117001448" onstart="" thumburl="panos/PIC_2021_11_14_14_00_05_20211117001448.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_PIC_2021_11_14_14_00_05_20211117001448" title="外周02" onstart="" thumburl="panos/PIC_2021_11_14_14_00_05_20211117001448.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -119,7 +119,7 @@
 
 	</scene>
 
-	<scene name="scene_PIC_2021_11_14_14_02_18_20211117001448" title="PIC_2021_11_14_14_02_18_20211117001448" onstart="" thumburl="panos/PIC_2021_11_14_14_02_18_20211117001448.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_PIC_2021_11_14_14_02_18_20211117001448" title="外周03" onstart="" thumburl="panos/PIC_2021_11_14_14_02_18_20211117001448.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
